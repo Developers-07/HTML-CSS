@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid lightgrey;
+    background-color: #f2f2f2;
+
+}
+.form .user input,textarea{
+    width:100%;
+    padding: 10px;
+    border-radius: 20px;
+} 
+.payment select,input{
+    width:100%;
+    padding:10px;
+    border-radius: 20px;
+}
+button{
+    background-color:aqua;
+}
+button:hover{
+    cursor: pointer;
+}
+.form{
+    background-color:orange;
+    border-radius: 10px;
+    padding:5px 5px;
+}
+h1{
+    text-align:center;
+    color:blueviolet;
+}
+h2{
+    color:teal;
+}
+button[type="submit"]{
+    padding:10px;
+    font-size:20px;
+    border-radius: 10px;
+}

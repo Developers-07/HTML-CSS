@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    border:2px solid black;
+    /* width:50%; */
+    padding:0.9375rem;
+    background-color:aqua;
+}
+ table{
+    background-color:blueviolet;
+    border-collapse:collapse;
+    border-spacing:3px;
+   
+}
+table tr{
+    border:2px solid black;
+    
+}
+table tr th,td{
+    text-align:center;
+    padding:0.6375rem;
+    color:whitesmoke;
+} 
+table tr:nth-of-type(even){
+    background-color:#242e39;
+}

@@ -1,0 +1,26 @@
+input:checked{
+    height:20px;
+    width:20px;
+}
+
+ul li:first-child{
+    color:red;
+}
+ul li:last-child{
+    color:red;
+}
+ul li:nth-of-type(3){
+    color:blueviolet;
+}
+input:required{
+    background-color: yellowgreen;
+}
+:root{
+    zishan:orange;
+}
+input[type="email"]{
+    background-color: aqua;
+}
+input[type="email"]:valid{
+    background-color:green;
+}

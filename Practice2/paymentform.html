@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="paymentform.css">
+</head>
+<body>
+    <div class="form">
+        <form action="" method="get">
+            <h1>Payment Form</h1>
+            <hr>
+            <div class="user">
+                <h2>User Information</h2>
+                <label for="name">Name:*</label></br>
+                <input type="text" placeholder="Enter UserName"></br>
+                <label for="email">Email:*</label></br>
+                <input type="email" placeholder="Enter Gmail"> </br>              
+                <label for="pincode">Pincode:*</label></br>
+                <input type="password" placeholder="Enter Pincode"></br>
+                <label for="gender">Gender:</label></br>
+                Male <input type="radio" name="select" value="Male"> Female <input type="radio" name="select" value="Female"></br>
+                <label for="address">Address:</label></br>
+                <textarea name="bio" placeholder="Enter your address"></textarea></br>
+            </div>
+
+            <div class="payment">
+                <h2>Payment Information</h2>
+                <label for="cardtype">Card type:</label></br>
+                <select>
+                    <option>---Select any card---</option>
+                    <option>ATM card</option>
+                    <option>Visa card</option>
+                </select></br>
+                <label for="cardnumber">Card Number:*</label></br>
+                <input type="text"> </br>              
+                <label for="expiredate">Expiration Date:*</label></br>
+                <input type="date"></br>
+                <label for="cvv">CVV:</label></br>
+                <input type="number" min="1" max="500"></br></br>
+            </div>
+            <button type="submit">Pay Now</button></br>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+a.btn1{
+    background-color:fuchsia;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:center;
+    border-radius:15px;
+    padding:10px;
+    font-weight:bold;
+    text-decoration:none;
+    transition:0.4s all;
+}
+a.btn1:hover{
+    background-color:rgb(87, 7, 87);
+    color:aqua;
+    cursor:pointer;
+}
+a.btn2{
+    background-image:linear-gradient(to right,#cc2b52, #753a88);
+    padding:10px 20px;
+    box-sizing:border-box;
+    text-decoration:none;
+    color:wheat;
+    border-radius:20px;
+    font-weight:bold;
+}
+a.btn2:hover{
+    background-image:linear-gradient(to left,#cc2b52, #753a88);
+
+}

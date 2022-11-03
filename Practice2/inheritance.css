@@ -1,0 +1,9 @@
+/* *{
+    color:red;
+} */
+body{
+    color:blueviolet;
+}
+button{
+    color:inherit;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:gray;
+    padding:50px;
+}
+.main{
+    background: olive;
+    border:3px solid black;
+    height: 300px;
+    width:300px;
+    margin: 20px;
+}
+.num1{
+    background: orangered;
+    width:100px;
+    height:100px;
+    position:sticky;
+    top:0;
+}
+.num2{
+    background: yellow;
+    width:100px;
+    height:100px;
+    margin-top:20px;
+}

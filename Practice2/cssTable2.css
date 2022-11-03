@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main{
+    display:flex;
+    justify-content:center;
+    background-color: blue;
+}
+table{
+    border-collapse:collapse;
+    margin-top:1.25rem;
+    background-color:aqua;
+}
+caption{
+    font-size:1.875rem;
+    margin-bottom: 10px;
+    font-weight:bold;
+    color:orangered;
+}
+table tr th,td{
+    height:1.875rem;
+    width:6.25rem;
+    text-align:center;
+    padding:0.9375rem;
+}
+table tr:nth-of-type(odd){
+    background-color:rgb(135, 111, 175);
+}
+table tr:nth-of-type(even){
+    background-color:rgb(136, 93, 93);
+}
+table th:last-child{
+    color:rgb(133, 25, 118);
+}
+table tr th:not(th:last-child){
+    color:rgb(62, 10, 110);
+}

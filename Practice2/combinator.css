@@ -1,0 +1,15 @@
+.dada h1{
+    color:blueviolet;
+}
+p + h2{
+    color:brown;
+}
+p ~ h2{
+    color:orangered;
+}
+.bhai > h3{
+    color:orange;
+}
+p{
+    background-color:olive;
+}

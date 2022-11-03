@@ -1,0 +1,9 @@
+/* Absolute units --> px, mm, in, pt, pc, q
+Relative units --> em, rem***, vh, vw, %
+*/
+.main{
+    font-size: 16px;
+}
+p{
+    font-size:2rem;
+}

@@ -1,0 +1,28 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+div{
+    background-color: grey;
+    width:25rem;
+    height:6.25rem;
+    /* transition-property: all;
+    transition-duration:0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0.6s; */
+    /* transition:all 0.6s; */
+}
+/* div:hover{
+    background-color: rgb(90, 131, 207);
+    border-radius:50%;
+} */
+input{
+    width:12rem;
+    padding:0.87rem;
+    transition:all 0.6s;
+}
+input:focus{
+    width:22rem;
+}

@@ -1,0 +1,26 @@
+p {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 20px;
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    color: blue;
+    text-align: justify;
+    line-height: 2;
+}
+p::first-letter{
+    text-transform:capitalize;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style:italic;
+    text-align:center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}

@@ -1,0 +1,24 @@
+@media (orientation: landscape){
+    h1{
+        color:red;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+/* Phone */
+@media (min-width: 36rem) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* Tablet */
+@media (min-width: 48rem) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 62rem) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { } */

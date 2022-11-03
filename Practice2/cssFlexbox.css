@@ -1,0 +1,83 @@
+.container{
+    background-color:gray;
+    width:50vw;
+    border:2px solid black;
+    display:flex;
+}
+main{
+    background-color:darkviolet;
+    flex:1;
+}
+aside{
+    background-color:darkorange;
+    flex:2;
+}
+.form{
+    width:700px;
+    background-color:darkolivegreen;
+    border:2px solid black;
+}
+form{
+    background-color: cornflowerblue;
+    width:600px;
+}
+.num1{
+    background-color: brown;
+    flex:1;
+}
+.num2 {
+    background-color: blue;
+    flex:1;
+}
+
+
+
+
+
+
+
+
+/* .container{
+    background-color: azure;
+    border:2px solid black;
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    /* flex-direction:row;
+    flex-wrap:wrap; 
+    flex-flow:row nowrap;
+}
+
+
+
+
+
+
+.child-1{
+    background-color:cadetblue;
+    width:200px;
+    min-height:100px;
+    align-self:center;
+}
+.child-2{
+    background-color:sandybrown;
+    width:200px;
+    min-height:150px;
+}
+.child-3{
+    background-color:rebeccapurple;
+    width:200px;
+    min-height:180px;
+}
+.child-4{
+    background-color:orangered;
+    width:200px;
+    min-height:250px;
+}
+.child-5{
+    background-color:goldenrod;
+    width:200px;
+    min-height:300px;
+    align-self:center;
+} */

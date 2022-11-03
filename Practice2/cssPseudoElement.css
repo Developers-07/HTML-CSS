@@ -1,0 +1,33 @@
+/* h1::before{
+    width:20px;
+    height:20px;
+    background-color: blueviolet;
+    content:'';
+    display:block;
+}
+h1::after{
+    width:20px;
+    height:20px;
+    background-color: orangered;
+    content:'';
+    display: block;
+} */
+h1{
+    position:relative;
+}
+h1:hover::after{
+    content: attr(data-mydata);
+    font-size:12px;
+    position:absolute;
+    top:0;
+    background-color: indianred;
+    color:white;
+    padding:2px;
+}
+
+h1::after{
+    content:'*';
+}
+h1::before{
+    content:'###';
+}
